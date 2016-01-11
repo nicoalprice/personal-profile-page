@@ -17,6 +17,10 @@ body {
   color: #222;
   background: #f7f5f0;
 }
+
+h1 {
+    font-size: 1.5em;
+}
 /* Link Styles */
 
 a {
@@ -39,6 +43,7 @@ a:hover {
 }
 .nav {
   display: flex;
+  width: 50%;
   justify-content: space-around;
   font-weight: 700;
   list-style-type: none;
@@ -46,14 +51,15 @@ a:hover {
   padding: 0;
 }
 
-.nav .name {
+.name-logo {
     display: block;
     margin-right: auto;
     font-weight: 500;
     color: #f7f5f0;
     font-family: "brody";
-    font-size: 1.5em;
+    font-size: 1.75em;
 }
+
 .nav li {
   padding: 5px 10px 10px 10px;
 }
@@ -69,13 +75,14 @@ header {
   background: url('images/winter-green-backdrop.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
-  padding-top: 60px;
+  padding-top: 80px;
 }
 header {
   line-height: 1.5;
 }
 header .profile-image {
-  margin-top: 50px;
+  margin-top: 80px;
+  margin-bottom: 20px;
   width: 150px;
   height: 150px;
   border-radius: 50%;
@@ -95,10 +102,7 @@ header .profile-image:hover {
   display: table;
   margin: 10px auto;
 } 
-.location {
-  background-color: #49443e;
-  color: #f7f5f0;
-}
+
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
@@ -131,15 +135,6 @@ ul.skills {
   background: #93944e;
 }
 
-.projects li {
-  
-}
-
-.projects li:nth-child(odd) {
-
-}
-
-
 footer {
   width: 100%;
   min-height: 30px;
@@ -171,7 +166,6 @@ a.social {
   opacity: .5;
   transition: all .5s;
 }
-
 
 a.linkedin {
   background-image: url(images/linkedin.bmp);
