@@ -21,6 +21,7 @@ body {
 h1 {
     font-size: 1.5em;
 }
+
 /* Link Styles */
 
 a {
@@ -76,10 +77,9 @@ header {
   background-size: cover;
   overflow: hidden;
   padding-top: 80px;
-}
-header {
   line-height: 1.5;
 }
+
 header .profile-image {
   margin-top: 80px;
   margin-bottom: 20px;
@@ -87,13 +87,14 @@ header .profile-image {
   height: 150px;
   border-radius: 50%;
   border: 3px solid #b9bec2;
-  opacity: .85;
+  opacity: 1;
   transition: all 1.5s;
 }
+
 header .profile-image:hover {
   transform: scale(1.2) rotate(360deg);
-      opacity: 1;
 }
+
 .tag {
   background-color: #f7f5f0;
   color: #49443e;
@@ -113,6 +114,7 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
+
 .card:hover {
   border-color: #93944e;
 }
@@ -133,6 +135,21 @@ ul.skills {
 
 .skills li:nth-child(odd) {
   background: #93944e;
+}
+
+.education {
+    list-style-type: none;
+    padding-left: 1em;
+}
+
+.education li:nth-child(odd) {
+    color: #93944e;
+    font-weight: 500;
+    padding-bottom: 4px;
+}
+
+.education li:nth-child(even) {
+    margin-bottom: 15px;
 }
 
 footer {
@@ -170,12 +187,15 @@ a.social {
 a.linkedin {
   background-image: url(images/linkedin.bmp);
 }
+
 a.github {
   background-image: url(images/github.bmp);
 }
+
 a.social:hover {
   opacity: 1;
 }
+
 .clearfix {
   clear: both;
 }
@@ -195,10 +215,17 @@ a.social:hover {
   header {
     min-height: 470px;
   }
+    
+    .name-logo {
+        padding-left: 30px;
+        float: left;
+    }
 
   .nav {
     max-width: 1200px;
     padding: 0 30px;
+      width: 20%;
+      float: right;
   }
 
 
