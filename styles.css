@@ -1,4 +1,4 @@
-/* Global Layout Set-up */
+/* global layout set-up */
 * { 
   box-sizing: border-box;
 }
@@ -8,6 +8,8 @@
     font-family:"brody";src:url("BRODY.eot?")                                   format("eot"),url("BRODY.woff")                         format("woff"),url("BRODY.ttf")                         format("truetype"),url("BRODY.svg#Brody") 
 format("svg");font-weight:normal; font--style:normal;
 }
+
+/* general */
   
 body {
   margin: 0;
@@ -22,7 +24,7 @@ h1 {
     font-size: 1.5em;
 }
 
-/* Link Styles */
+/* link styles */
 
 a {
   text-decoration: none;
@@ -32,7 +34,7 @@ a:hover {
   color: #6633ff;
 }
 
-/* Section Styles */
+/* navigation */
 
 .main-nav {
   width: 100%;
@@ -71,9 +73,20 @@ a:hover {
   color: white
 }
 
+/* header */
+
 header {
   text-align: center;
   background: url('images/winter-green-backdrop.jpg') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 80px;
+  line-height: 1.5;
+}
+
+.experience {
+  text-align: center;
+  background: url('images/experience-background.jpg') no-repeat top center;
   background-size: cover;
   overflow: hidden;
   padding-top: 80px;
@@ -103,6 +116,8 @@ header .profile-image:hover {
   display: table;
   margin: 10px auto;
 } 
+
+/* main content */
 
 .card {
   margin: 30px;
@@ -151,6 +166,8 @@ ul.skills {
 .education li:nth-child(even) {
     margin-bottom: 15px;
 }
+
+/* footer */
 
 footer {
   width: 100%;
