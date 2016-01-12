@@ -6,7 +6,7 @@
 /* font */
 @font-face {
     font-family:"brody";src:url("BRODY.eot?")                                   format("eot"),url("BRODY.woff")                         format("woff"),url("BRODY.ttf")                         format("truetype"),url("BRODY.svg#Brody") 
-format("svg");font-weight:normal; font--style:normal;
+format("svg");font-weight:normal; font-style:normal;
 }
 
 /* general */
